@@ -1,0 +1,28 @@
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+backend/venv/
+
+# Dependency directories
+node_modules/
+/frontend/node_modules/
+/frontend/.next/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Log files
+*.log
